@@ -1,0 +1,133 @@
+.pixel_cr{
+opacity: 0;
+
+}
+.logo{
+    width: 500px;
+    height: 270px;
+    padding: 3%;
+}
+
+.button{
+    height: 55px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: .3em;
+    border-radius: 5px;
+    user-select: none;
+    background-color:#a994db;
+    text-align: center;
+}
+.shap{
+    display: flex;
+    gap:200px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+}
+.eac{
+    width:35px ;
+    height:35px;
+    background-color: #858585;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1px;
+
+}
+.pixel{
+    display: grid;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(100,1fr);
+
+
+
+
+}
+.red{    width:72px ;
+    height:35px;
+    background-color: red;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+}
+.while{    width:72px ;
+    height:35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+}
+.black{    width:72px ;
+    height:35px;
+    background-color: black;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+}
+.green{    width:72px ;
+    height:35px;
+    background-color: green;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+}
+.blue{    width:72px ;
+    height:35px;
+    background-color: blue;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+}
+.pink{    width:72px ;
+    height:35px;
+    background-color: rgb(255, 170, 184);
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+}
+.purple{    width:72px ;
+    height:35px;
+    background-color: purple;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+}
+.orange{    width:72px ;
+    height:35px;
+    background-color: orange;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+}
+.clear{
+    
+    height:35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+} 
+.not_clear{
+        height:35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+}
+
+
+.color{
+    display: flex;
+    flex-direction:row ;
+    
+}
+.pixels{
+    display: flex;
+}
+.downing{
+    width:72px ;
+    height:35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 1px;
+    font-family: "Noto Serif", serif;
+
+}
